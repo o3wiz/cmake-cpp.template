@@ -1,7 +1,8 @@
 ---
 Checks: >
   readability-identifier-naming*,
-  performance-move-const-arg
+  performance-move-const-arg,
+  performance-for-range-copy
 
 WarningsAsErrors: "*"
 
