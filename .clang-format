@@ -3,3 +3,5 @@ Language: Cpp
 BasedOnStyle: Microsoft
 InsertBraces: true
 BreakBeforeBraces: Stroustrup
+BreakBinaryOperations: OnePerLine
+BreakBeforeBinaryOperators: All
