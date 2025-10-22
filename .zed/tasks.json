@@ -2,7 +2,7 @@
   {
     "label": "configure: (all)",
     "command": "cmake",
-    "args": ["--preset", "default"],
+    "args": ["--fresh", "--preset", "default"],
     "env": {},
     "cwd": "$ZED_WORKTREE_ROOT",
     "use_new_terminal": true,
