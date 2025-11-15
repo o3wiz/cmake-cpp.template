@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 4.1.1)
 
 project(Temp LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 23)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 add_executable(main "Main.cpp")
+target_compile_features(main PRIVATE cxx_std_23)
